@@ -1,12 +1,14 @@
 # blog
 
-installer les dépendances
+1) installer les dépendances
 `npm install`
 
-lancer le serveur
+2) créer la base de donnée `piscinedb` sur mongodb
+
+3) lancer le serveur
 `node app.js`
 
-urls disponibles :
+4) urls disponibles :
 - `http://localhost:3000/` GET
 - `http://localhost:3000/piscines/` GET / POST
 - `http://localhost:3000/piscine/ID/`GET
